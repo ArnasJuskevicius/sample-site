@@ -40,10 +40,8 @@
 </header>
 <main>
 <div class="container"> 
-	<div class="left">
-	<!-- pirmas blokas -->
-		
-		<article class="white-background">
+	<div class="left">		
+		<article class="left-article">
 			<h1>Aenean ac diam nec neque fringilla</h1>
 			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
 			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
@@ -51,12 +49,11 @@
 			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
 			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
 		</article>
-	<!-- antras blockas  -->
 		<div class="article-bottom-grid">
 			<div class="article-bottom-col">
-				<article class="article-bottom-item">
+				<div class="article-bottom-item">
 					<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius. Dorce pila meracone.</p>
-				</article>
+				</div>
 			</div>
 			<div class="article-bottom-col">
 					<div class="article-bottom-item">
@@ -69,19 +66,19 @@
 		</div>	
 	</div>
 	<div class="right">
-		<div>
+		<div class="right-header">
 			<h2>Aenean ac diam nec neque fringilla</h2>
-			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
 		</div>
+			<p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
 		<div class="right-form">
-			<form action="message send" method="post">
+			<form>
 			    <div>
 			        <label for="name">First name:</label>
 			        <!-- <input type="text" id="name" value="Enter your name" /> -->
 			        <input type="text" value="Enter your name" id="name" onblur="if(value=='') value = 'Enter your name'" onfocus="if(value=='Enter your name') value = ''"/>
 			    </div>
 			    <div>
-			        <label for="mail">Last name:</label>
+			        <label for="lastN">Last name:</label>
 			        <!-- <input type="text" id="lastN" value="Enter your last name" /> -->
 			        <input type="text" value="Enter your last name" id="lastN" onblur="if(value=='') value = 'Enter your last name'" onfocus="if(value=='Enter your last name') value = ''"/>
 			    </div>
@@ -89,7 +86,6 @@
 			        <label for="msg">Message:</label>
 			        <textarea id="msg"></textarea>
 			    </div>
-			    
 			    <div class="button">
 			         <input type="button" name="submit" value="Submit" id="submit" />
 			    </div>
@@ -110,7 +106,7 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
-</div>
+	</div>
 </main>
 <footer>
 	<div class="container">
